@@ -8,7 +8,8 @@
     "build": "vite build",
     "lint": "eslint ./src --ext .jsx --ext .js",
     "preview": "vite preview",
-    "test": "vitest --no-watch"
+    "test": "vitest --no-watch",
+    "e2e": "cypress run"
   },
   "dependencies": {
     "@reduxjs/toolkit": "^2.2.3",
@@ -29,9 +30,11 @@
     "@types/react-dom": "^18.2.22",
     "@vitejs/plugin-react-swc": "^3.5.0",
     "autoprefixer": "^10.4.19",
+    "cypress": "^13.7.3",
     "daisyui": "^4.10.1",
     "eslint": "^8.57.0",
     "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-cypress": "^2.15.1",
     "eslint-plugin-import": "^2.29.1",
     "eslint-plugin-n": "^16.6.2",
     "eslint-plugin-promise": "^6.1.1",
